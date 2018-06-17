@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Animation Time</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  </head>
+  <body class="fadeIn">
+
+
+    <div class="container-fluid" style="padding:0;">
+      <div class="exercise1">
+      <div class="row">
+        <div class="md-col-12 mx-auto">
+    <h1 class="title" style="text-align:center;font-size:60px;padding-top:35px;padding-bottom:15px">Change the values below<br>
+    to see how transitions function</h1>
+
+
+    <div id="box1">
+    </div>
+
+
+
+    <div class="parameter" style="font-size:45px;padding:15px;">
+        <div class="round">
+          <p id="counter0">
+              <b>Border Radius:</b> <input type="number" step="1" onchange=
+                "box1.style.borderRadius=this.value+'px'">
+          </p>
+        </div>
+
+
+        <div class="high">
+          <p id="counter1">
+              <b>Height:</b> <input type="number" step="1" onchange=
+                "box1.style.height=this.value+'px'">
+          </p>
+        </div>
+
+          <div class="wide">
+              <p id="counter2">
+                  <b>Width:</b> <input type="number" step="1" onchange=
+                    "box1.style.width=this.value+'px'">
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="banner">
+      <div class="row">
+        <div class="md-col-12 mx-auto">
+    <h1 class="title" style="text-align:center;font-size:90px;padding-top:35px;
+    padding-bottom:15px;
+    color:rgb(255, 255, 255);z-index:5;margin-top:250px;">Next we'll take a look<br>
+    at keyframes animations</h1>
+
+    </div>
+  </div>
+  </section>
+
+
+  <!-- THIS IS THE THIRD SECTION, AFTER THE MOVING SPACE BG -->
+
+        <section class="third">
+        <div id="marshmallow">
+        </div>
+        <div id="raison">
+        </div>
+        <div id="raspberry">
+        </div>
+        </section>
+
+
+
+
+
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+     <script src="js/main.js"></script>
+  </body>
+</html>
